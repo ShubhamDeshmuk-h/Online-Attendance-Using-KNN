@@ -37,7 +37,7 @@ cd Online-Attendance-Using-KNN
 
 ```
 
-###2. Install required packages
+### 2. Install required packages
 ```bash
 pip install -r requirements.txt
 ```
@@ -48,7 +48,7 @@ You can also manually install:
 pip install opencv-python numpy scikit-learn
 ```
 
-###3. Prepare directories
+### 3. Prepare directories
 Make sure the following folders exist:
 
 ```bash
@@ -57,7 +57,7 @@ Make sure the following folders exist:
 
 ```
 
-###4. Optional: Add background image
+### 4. Optional: Add background image
 
 Place a file named bg.png in the root directory for GUI overlay (optional).
 
@@ -88,13 +88,20 @@ Press O to mark attendance for the recognized face.
 Press Q to quit the application.
 
 
-Project Structure
+## Project Structure
 
-├── attendance_knn.py
-├── bg.png (optional)
-├── /data/
-│   ├── face_data.pkl
-│   └── names.pkl
-├── /Attendance/
-│   └── Attendance_dd-mm-yyyy.csv
-└── README.md
+attendance_knn.py <br/>
+
+bg.png (optional)<br/>
+
+/data/<br/>
+
+face_data.pkl<br/>
+
+names.pkl<br/>
+
+/Attendance/<br/>
+
+Attendance_dd-mm-yyyy.csv<br/>
+
+README.md
