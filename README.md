@@ -90,18 +90,12 @@ Press Q to quit the application.
 
 ## Project Structure
 
-attendance_knn.py <br/>
 
-bg.png (optional)<br/>
-
-/data/<br/>
-
-face_data.pkl<br/>
-
-names.pkl<br/>
-
-/Attendance/<br/>
-
-Attendance_dd-mm-yyyy.csv<br/>
-
-README.md
+├── attendance_knn.py<br/>
+├── bg.png (optional)<br/>
+├── /data/<br/>
+│   ├── face_data.pkl<br/>
+│   └── names.pkl<br/>
+├── /Attendance/<br/>
+│   └── Attendance_dd-mm-yyyy.csv<br/>
+└── README.md
