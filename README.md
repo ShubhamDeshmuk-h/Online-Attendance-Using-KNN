@@ -15,7 +15,7 @@ A smart attendance management system that uses real-time face recognition powere
 
 ---
 
-## 🖥 Tech Stack
+## Tech Stack
 
 | Tech            | Usage                          |
 |-----------------|--------------------------------|
